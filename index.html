@@ -60,6 +60,7 @@
       <div class="kg-nav-links" style="display: flex; gap: 28px; flex-wrap: wrap; font-size: 14px; color: #152238; font-weight: 500;">
         <a href="#lokalizacja" style="color: inherit;">Lokalizacja</a>
         <a href="#inwestycja" style="color: inherit;">O inwestycji</a>
+        <a href="#filmy" style="color: inherit;">Filmy</a>
         <a href="#prospekt" style="color: inherit;">Prospekt</a>
         <a href="#oferta" style="color: inherit;">Oferta</a>
         <a href="#finansowanie" style="color: inherit;">Finansowanie</a>
@@ -140,6 +141,30 @@
     </div>
   </section>
 
+  <!-- Filmy -->
+  <section id="filmy" style="max-width: 1180px; margin: 0 auto; padding: 96px 24px;" class="kg-section">
+    <div style="text-align: center; margin-bottom: 40px;">
+      <div style="font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase; color: #c98a3e; font-weight: 700; margin-bottom: 12px;">Filmy</div>
+      <h2 style="font-size: 30px; font-weight: 800; margin: 0;">Zobacz budynek na filmie</h2>
+    </div>
+    <div class="kg-grid2" style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px;">
+        <div>
+          <div style="position: relative; width: 100%; padding-top: 56.25%; background: #152238; border-radius: 2px; overflow: hidden;">
+            <iframe src="https://www.youtube-nocookie.com/embed/xf9y-dBRaxI" title="Spacer po budynku z komentarzem" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <h3 style="font-size: 17px; font-weight: 700; margin: 16px 0 6px;">Spacer po budynku z komentarzem</h3>
+          <p style="font-size: 14px; color: #4a5468; margin: 0;">Spacer po budynku wraz z komentarzem.</p>
+        </div>
+        <div>
+          <div style="position: relative; width: 100%; padding-top: 56.25%; background: #152238; border-radius: 2px; overflow: hidden;">
+            <iframe src="https://www.youtube-nocookie.com/embed/yHwEWlrMfYY" title="Przelot dronem i zdjęcia ze środka" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <h3 style="font-size: 17px; font-weight: 700; margin: 16px 0 6px;">Przelot dronem i zdjęcia ze środka</h3>
+          <p style="font-size: 14px; color: #4a5468; margin: 0;">Przelot dronem nad budynkiem oraz kilka zdjęć ze środka wraz z opisami.</p>
+        </div>
+    </div>
+  </section>
+
   <!-- Prospekt -->
   <section id="prospekt" style="background: #152238; color: #ffffff;">
     <div style="max-width: 900px; margin: 0 auto; padding: 96px 24px;">
@@ -192,7 +217,7 @@
         <div class="kg-gallery" data-gallery="lokalA"></div>
         <div style="padding: 32px; padding-top: 20px;">
           <h3 style="font-size: 22px; font-weight: 800; margin: 0 0 8px;">Lokal A</h3>
-          <p style="font-size: 12.5px; color: #8a94a6; margin: 0 0 20px;">Zdjęcia wnętrz pokazane w układzie lustrzanym względem Lokalu B (ten sam standard wykończenia).</p>
+          <p style="font-size: 12.5px; color: #8a94a6; margin: 0 0 20px;">Aktualne zdjęcia Lokalu A (stan deweloperski surowy).</p>
           <div style="display: flex; justify-content: space-between; padding: 12px 0; border-top: 1px solid #eef0f3;">
             <span style="color: #8a94a6; font-size: 14px;">Powierzchnia użytkowa</span>
             <span style="font-weight: 600; font-size: 14px;">139 m²</span>
@@ -411,18 +436,27 @@
       { src: 'assets/plan-a-parter.jpg', caption: 'Rzut parteru (63,13 m²)' },
       { src: 'assets/plan-a-pietro.jpg', caption: 'Rzut piętra (79,69 m²)' },
       { src: 'assets/plan-a-poddasze.jpg', caption: 'Rzut poddasza do zabudowy (79,16 m²)' },
-      { src: 'assets/int-kuchnia-a.jpg', caption: 'Kuchnia' },
-      { src: 'assets/int-salon-1-a.jpg', caption: 'Przestronny salon' },
-      { src: 'assets/int-salon-2-a.jpg', caption: 'Przestronny salon — antresola i schody' },
-      { src: 'assets/int-pokoj-1-a.jpg', caption: 'Pokój 1' },
-      { src: 'assets/int-pokoj-2-a.jpg', caption: 'Pokój 2' },
-      { src: 'assets/int-pokoj-5-a.jpg', caption: 'Pokój 5' },
-      { src: 'assets/int-sypialnia-1-a.jpg', caption: 'Sypialnia' },
-      { src: 'assets/int-sypialnia-garderoba-a.jpg', caption: 'Sypialnia z garderobą' },
-      { src: 'assets/int-lazienka-a.jpg', caption: 'Łazienka' },
-      { src: 'assets/int-wiatrolap-a.jpg', caption: 'Wygodny wiatrołap' },
-      { src: 'assets/int-balkon-a.jpg', caption: 'Balkon od frontu' },
-      { src: 'assets/int-poddasze-a.jpg', caption: 'Poddasze do zabudowy' }
+      { src: 'assets/a-salon-hal.jpg', caption: 'Salon — widok na schody i hol' },
+      { src: 'assets/a-salon-kuchnia.jpg', caption: 'Salon — widok z kuchni' },
+      { src: 'assets/a-kuchnia.jpg', caption: 'Kuchnia' },
+      { src: 'assets/a-toaleta.jpg', caption: 'Toaleta na parterze' },
+      { src: 'assets/a-lazienka-wejscie.jpg', caption: 'Łazienka — wejście' },
+      { src: 'assets/a-lazienka-wnetrze.jpg', caption: 'Łazienka — wnętrze' },
+      { src: 'assets/a-pietro-korytarz.jpg', caption: 'Piętro — korytarz i schody' },
+      { src: 'assets/a-sypialnia1-w1.jpg', caption: 'Sypialnia 1' },
+      { src: 'assets/a-sypialnia1-w2.jpg', caption: 'Sypialnia 1 — widok 2' },
+      { src: 'assets/a-sypialnia2-w1.jpg', caption: 'Sypialnia 2' },
+      { src: 'assets/a-sypialnia2-w2.jpg', caption: 'Sypialnia 2 — widok 2' },
+      { src: 'assets/a-sypialnia3-w1.jpg', caption: 'Sypialnia 3' },
+      { src: 'assets/a-sypialnia3-garderoba.jpg', caption: 'Sypialnia 3 — garderoba' },
+      { src: 'assets/a-sypialnia5-w1.jpg', caption: 'Sypialnia 5' },
+      { src: 'assets/a-sypialnia5-w2.jpg', caption: 'Sypialnia 5 — widok 2' },
+      { src: 'assets/a-sypialnia5-w3.jpg', caption: 'Sypialnia 5 — widok 3' },
+      { src: 'assets/a-poddasze-1.jpg', caption: 'Poddasze do zabudowy — widok 1' },
+      { src: 'assets/a-poddasze-2.jpg', caption: 'Poddasze do zabudowy — widok 2' },
+      { src: 'assets/a-poddasze-3.jpg', caption: 'Poddasze do zabudowy — widok 3' },
+      { src: 'assets/a-poddasze-4.jpg', caption: 'Poddasze do zabudowy — widok 4' },
+      { src: 'assets/a-dzialka.jpg', caption: 'Działka — strona boczna budynku' }
     ],
     lokalB: [
       { src: 'assets/lokal-b-main.jpg', caption: 'Lokal B — prawa strona budynku' },
